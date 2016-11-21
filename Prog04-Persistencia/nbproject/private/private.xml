@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/interfaces/IFilmeDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/interfaces/IGame.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/UserJpaController.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/entities/Filme.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/FilmeJpaController.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/GameDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/RuleDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/UserDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/RuleJpaController.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/entities/Genero.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/entities/User.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/FilmeDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/entities/Rule.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/setup/PersistenciaFilmeGames.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/GeneroJpaController.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/interfaces/IGeneroDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/setup/TestarPersistencia.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/daos/GeneroDAO.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/setup/TestePersistenciaGenero.java</file>
+            <file>file:/D:/ProgIVProject/Prog04-Persistencia/src/org/catolica/prog4/persistencia/entities/Game.java</file>
+        </group>
+    </open-files>
+</project-private>

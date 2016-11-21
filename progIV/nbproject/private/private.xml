@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/FilmeViews/adicionar_editarFilme.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/nbproject/build-impl.xml</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/BuildModelSampleCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/UserViews/listarUser.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/LogoutCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/GameViews/adicionar_editarGames.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/AulasViews/addtarefa.html</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/GeneroCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/generoViews/deletarGenero.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/jspf/header.jspf</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/UserViews/detalhesUser.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/GameViews/detalhesGame.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/GameViews/deletarGame.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/FilmeViews/deletarFilme.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/jspf/head.jspf</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/GameViews/listarGames.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/GameCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/FilmeViews/listarFilme.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/jspf/footer.jspf</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/UserViews/deletarUser.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/Menu.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/UserCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/generoViews/detalhesGenero.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/UserViews/adicionar_editarUser.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/generoViews/adicionar_editarGenero.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/FilmeViews/detalhesFilme.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/AulasViews/index.html</file>
+            <file>file:/D:/ProgIVProject/progIV/web/WEB-INF/Views/generoViews/listarGeneros.jsp</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/mvc/cmds/FilmeCmd.java</file>
+            <file>file:/D:/ProgIVProject/progIV/src/java/org/ftd/educational/web/controllers/AuthenticationControllerServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="PM APP">
+        <meta name="author" content="Fábio Tavares Dippold">
+        <link rel="icon" href="assets/icons/qb-icon.png">
+        <title>MINHA PRIMEIRA PÁGINA</title>
+        <!-- Bootstrap -->
+        <link href="assets/core/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+        <link href="assets/core/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+    </head><!-- /HEAD -->
+    <body>
+        <!-- MAIN CONTAINER -->   
+        <div id="main" class="container-fluid">
+            <h3 class="page-header">Criando Nova Tarefa</h3>
+            <!-- FORM MAIN -->
+            <form id="formAddNew" name="formAddNew" method="POST" action="show">
+                <input type="hidden" id="cmd" name="cmd" value="adicionar">
+
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label for="comboProject">Projeto:</label>
+                        <!-- COMBOBOX -->
+                        <SELECT id="comboProject" name="comboProject" size="1" class="form-control">
+                            <option value="1" selected>Projeto Andromeda</option> 
+                            <option value="2">Projeto Apolo11</option>
+                            <option value="3">Projeto Pokemon Go</option>
+                        </SELECT><!-- /COMBOBOX -->                      
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="comboWorkpackage">Pacote de Trabalho:</label>
+                        <!-- COMBOBOX -->
+                        <SELECT id="comboWorkpackage" name="comboWorkpackage" size="1" class="form-control">
+                            <option value="1" selected>Requisitos</option> 
+                            <option value="2">Análise OO</option>
+                            <option value="3">Desenvolvimento</option>
+                            <option value="4">Testes</option> 
+                            <option value="5">Análise de Negócio</option>
+                            <option value="6">Gerencia do Projeto</option>                            
+                        </SELECT><!-- /COMBOBOX -->                      
+                    </div>                    
+                    <div class="form-group col-md-4">
+                        <label for="comboUser">Usuário:</label>
+                        <!-- COMBOBOX -->
+                        <SELECT id="comboUser" name="comboUser" size="1" class="form-control"  required="required">
+                            <option value="1" selected>Paulo</option> 
+                            <option value="2">Fabio</option>
+                            <option value="3">Cristofer</option>
+                            <option value="4">Roberto</option> 
+                            <option value="5">Jaime</option>
+                            <option value="6">João</option>                            
+                        </SELECT><!-- /COMBOBOX -->                      
+                    </div>                    
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label for="nameInput">Nome da Tarefa:</label>
+                        <input type="text" class="form-control" id="nameInput" name="nameInput" required="required" placeholder="Digite o nome" maxlength="100">
+                        <span id="contadorNameInput" class="label label-warning">50 Restantes!</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label for="descriptionInput">Descrição da tarefa:</label>
+                        <textarea class="form-control" id="descriptionInput" name="descriptionInput" required="required" placeholder="Digite a messagem"
+                                  rows="5" maxlength="255"></textarea>
+                        <span id="contadorDescriptionInput" class="label label-warning">255 Restantes!</span>
+                    </div>
+                </div>                 
+
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="inputStartDate">Início:</label>
+                        <input type="date" class="form-control" id="inputStartDate" name="inputStartDate" required="required" >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEndDate">Término:</label>
+                        <input type="date" class="form-control" id="inputEndDate" name="inputEndDate" required="required" >                     
+                    </div>                    
+                </div> 
+
+                <!-- LINHA-4 : BUTTONS SAVE AND CANCEL -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">Salvar</button>
+                    </div>
+                </div><!-- /LINHA-4 -->
+
+            </form><!-- /FORM MAIN -->
+
+        </div> <!--/MAIN CONTAINER --> 
+
+
+        <!-- CORE JAVASCRIPT LYBRARIES...
+        ================================================== -->
+        <script type="text/javascript" src="assets/core/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/core/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                var mostrarMensagem = function () {
+                    alert("A árvorê do DOM foi construída!");
+                };
+
+
+                $("#nameInput").keyup(
+                        function () {
+                            var limite = 100;
+                            var caracteresDigitados = $(this).val().length;
+                            var caracteresRestantes = limite - caracteresDigitados;
+                            $("#contadorNameInput").text(caracteresRestantes + " Restantes!");
+                        }
+                );
+
+                $("#descriptionInput").keyup(
+                        function () {
+                            var limite = 255;
+                            var caracteresDigitados = $(this).val().length;
+                            var caracteresRestantes = limite - caracteresDigitados;
+                            $("#contadorDescriptionInput").text(caracteresRestantes + " Restantes!");
+                        }
+                );
+
+                mostrarMensagem();
+
+            });
+        </script><!-- /DATA MODEL & EVENTS FUNCTIONS -->          
+    </body>
+</html>
+
